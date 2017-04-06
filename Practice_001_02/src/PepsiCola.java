@@ -5,8 +5,8 @@ public class PepsiCola {
 
     // Check value to determine what to print
     public void PrintPepsiCola(Integer value) {
-        boolean divisibleByTwo = (value % 2 == 0) ? true : false;
-        boolean divisibleByThree = (value % 3 == 0) ? true : false;
+        boolean divisibleByTwo = (value % 2 == 0);
+        boolean divisibleByThree = (value % 3 == 0);
 
         if (divisibleByTwo && divisibleByThree) {
             System.out.println("PepsiCola");
