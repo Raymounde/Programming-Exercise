@@ -1,7 +1,8 @@
 /**
  * Created by Alfie on 4/5/2017.
+ * class Main
  */
-public class Main {
+class Main {
 
     public static void main(String Args[]) {
 
