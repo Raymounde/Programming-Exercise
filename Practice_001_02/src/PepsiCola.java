@@ -1,10 +1,11 @@
 /**
  * Created by Alfie on 4/5/2017.
+ * class PepsiCola
  */
-public class PepsiCola {
+class PepsiCola {
 
     // Check value to determine what to print
-    public void PrintPepsiCola(Integer value) {
+    void PrintPepsiCola(Integer value) {
         boolean divisibleByTwo = (value % 2 == 0);
         boolean divisibleByThree = (value % 3 == 0);
 
